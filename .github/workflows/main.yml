@@ -62,7 +62,7 @@ jobs:
           echo 9 layout
           df
           echo
-          wcho 10 envt
+          echo 10 envt variables
           env
           
           
