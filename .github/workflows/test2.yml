@@ -18,8 +18,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-      - name: Step 1 - Log the pre-build disc space
-        run: ls
+      - name: Step 1 - Log the pre-build disc spaces
+        run: ls -a
         
       - name: step 2 - Checkout the main GitHub branch
         uses: actions/checkout@v2 
